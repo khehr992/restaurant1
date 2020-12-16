@@ -1,0 +1,88 @@
+body{
+  margin: 0px;
+  background-color: darkblue;
+  color: lightblue;
+}
+
+#topNav{
+  background-color: teal;
+  height: 15%;
+  margin: 0px;
+}
+
+#topNav li{
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-right: 35px;
+}
+
+#topNav li:hover{
+  background-color: black;
+}
+
+#topNav li a{
+     text-decoration: none;
+     font-family:monospace;
+     font-size: 35px;
+     color: orange;
+}
+
+#topNav li a:hover{
+  color: blue;
+}
+
+#menuNav{
+    height: 100%;
+    width: 45px;
+    background-color: lightblue;
+    border-right: 2px solid black;
+    margin: 0px;
+    float: left;
+}
+
+#menuNav li{
+  list-style: none;
+  float: right;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+
+#menuNav li:hover{
+  background-color: white;
+}
+
+#menuNav li a{
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+#menuNav li a:hover{
+  color: blue;
+}
+
+
+#hamTitle{
+  color: cyan;
+}
+
+#hamDes{
+  font-size: 35px;
+}
+
+#popsiclePic{
+  width: 450px;
+  height: 350px;
+}
+
+#hamPic{
+  width: 350px;
+  height: 350px;
+}
+
+#fryTitle{
+  color:cyan;
+}
